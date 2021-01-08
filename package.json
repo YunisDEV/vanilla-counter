@@ -14,6 +14,11 @@
     "vanilla",
     "js-counter"
   ],
-  "author": "YunisDEV",
-  "license": "MIT"
+  "author": "Yunis Huseynzade <yunisdev.04@gmail.com> (http://yunisdev.github.io)",
+  "license": "MIT",
+  "homepage": "https://yunisdev.github.io/vanilla-counter/",
+  "bugs": {
+    "email": "yunisdev.04@gmail.com",
+    "url": "https://github.com/YunisDEV/vanilla-counter/issues"
+  }
 }
