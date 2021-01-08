@@ -1,12 +1,12 @@
 {
   "name": "vanilla-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight JS library to create counters",
   "main": "vanilla-counter.js",
   "scripts": {
     
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["vanilla-counter","counter","javascript","vanillajs","vanilla","js-counter"],
+  "author": "YunisDEV",
+  "license": "MIT"
 }
