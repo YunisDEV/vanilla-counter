@@ -1,0 +1,12 @@
+{
+  "name": "vanilla-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vanilla-counter.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
