@@ -5,13 +5,19 @@ function VanillaCounter() {
             startAt: parseInt(i.getAttribute('data-start-at')),
             endAt: parseInt(i.getAttribute('data-end-at')),
             delay: parseInt(i.getAttribute('data-delay')) || 0,
-            format: i.getAttribute('data-format') || '{}',
+            format: '{}',
             time: parseInt(i.getAttribute('data-time')) || 1000
         }
-        if (!data.startAt) {
+        if (i.getAttribute('data-format')) {
+            data.format = i.getAttribute('data-format')
+        } else if (i.innerHTML != "") {
+            data.format = i.innerHTML
+        }
+        console.log(data.format)
+        if (data.startAt == null) {
             throw new Error('data-start-at attribute is required')
         }
-        if (!data.endAt) {
+        if (data.endAt == null) {
             throw new Error('data-end-at attribute is required')
         }
         var counter = data.startAt

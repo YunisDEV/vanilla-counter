@@ -30,6 +30,7 @@ You can also add following attributes:
 | data-format | {} | `true` | Counter will replace `{}` with number. Ex: `{}%` will be rendered as `100%`. **Note: You can not add any character or space inside curly braces, otherwise it will not work.**
 
 Example,
+
 ```html
 <span 
     data-vanilla-counter 
@@ -38,6 +39,32 @@ Example,
     data-time="10000" 
     data-delay="0" 
     data-format="{}%"
->
-</span>
+> </span>
+```
+
+You can also use inner html for format. Example:
+
+```html
+<span 
+    data-vanilla-counter 
+    data-start-at="0" 
+    data-end-at="100" 
+    data-time="10000" 
+    data-delay="0"
+>{}%</span>
+```
+
+But remember that `data-format` way is first case. So, if you use both methods, counter will get `data-format` value.
+
+#### Initialize
+
+After adding elements, don't forget to initialize.
+
+```html
+<body>
+    <!-- ... -->
+    <script>
+        VanillaCounter();
+    </script>
+</body>
 ```
