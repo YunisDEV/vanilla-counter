@@ -21,6 +21,7 @@ First create a element with `data-vanilla-counter` attribute. This attribute wil
 ```
 
 You can also add following attributes:
+
 | Attribute | Default | Optional | Details |
 | --------: | ------: | ----------: | -------: |
 | data-start-at | -- | `false` | Where to start count |
