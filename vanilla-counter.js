@@ -14,7 +14,7 @@ function VanillaCounter() {
         setTimeout(() => {
             var interval = setInterval(intervalHandler, data.time / (data.endAt - data.startAt))
             function intervalHandler() {
-                counter++
+                counter += (data.endAt - data.startAt) / Math.abs(data.endAt - data.startAt) * 1
                 i.innerHTML = data.format.replace('{}', counter)
                 if (counter == data.endAt) {
                     clearInterval(interval)

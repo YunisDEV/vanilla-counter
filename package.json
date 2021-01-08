@@ -1,7 +1,7 @@
 {
   "name": "vanilla-counter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lightweight JS library to create counters",
   "main": "vanilla-counter.js",
   "scripts": {
     
