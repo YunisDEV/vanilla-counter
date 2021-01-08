@@ -4,9 +4,16 @@
   "description": "Lightweight JS library to create counters",
   "main": "vanilla-counter.js",
   "scripts": {
-    "test":"echo \"No test specified\""
+    "test": "echo \"No test specified\""
   },
-  "keywords": ["vanilla-counter","counter","javascript","vanillajs","vanilla","js-counter"],
+  "keywords": [
+    "vanilla-counter",
+    "counter",
+    "javascript",
+    "vanillajs",
+    "vanilla",
+    "js-counter"
+  ],
   "author": "YunisDEV",
   "license": "MIT"
 }
